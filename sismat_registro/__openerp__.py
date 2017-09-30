@@ -20,14 +20,14 @@
 ##############################################################################
 
 {
-    'name': ' SIAAD Signup',
+    'name': ' SisMat Registro',
     'description': """
     Logueo y registro de usuarios
     """,
-    'author': 'IAEN',
+    'author': '593Desarrollo',
     'version': '1.0',
-    'category': 'Authentication',
-    'website': 'https://www.iaen.edu.ec',
+    'category': 'Autentificacion',
+    'website': '',
     'installable': True,
     'auto_install': True,
     'depends': [

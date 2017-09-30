@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data noupdate="0">
+        <!-- Plantilla para nuevos usuarios -->
+        <record id="set_password_email" model="email.template">
+            <field name="name">Siaad Nuevos Usuarios</field>
+            <field name="model_id" ref="base.model_res_users"/>
+            <field name="email_from"><![CDATA[ siaad@iaen.edu.ec ]]></field>
+            <field name="email_to">${object.email|safe}</field>
+            <field name="subject"><![CDATA[ Notificación de Registro ]]></field>
+            <field name="body_html">
+                
+            </field>
+        </record>
+
+    </data>
+</openerp>
