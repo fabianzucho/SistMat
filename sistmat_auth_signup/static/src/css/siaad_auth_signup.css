@@ -1,0 +1,9 @@
+.login_modal_resize {
+	margin-top:-330px !important;
+}
+
+@media screen and (min-height: 900px) {
+	.login_modal_resize {
+		margin-top: -400px !important;
+	}
+}
